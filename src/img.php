@@ -21,7 +21,7 @@ if (!isset($_SESSION["images"])) {
         header("Location: img.php");
     }
 
-    
+
     $random = array_rand($images, 1);
 
 }
