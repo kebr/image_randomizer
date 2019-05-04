@@ -2,7 +2,7 @@
 
 <?php
 session_start();
-if (!isset($_SESSION["images"])) {
+if (!isset($_SESSION["../resources/images"])) {
 //images array not available
 //get images
     $images = scandir("images/");
